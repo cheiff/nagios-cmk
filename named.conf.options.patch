@@ -1,0 +1,11 @@
+--- named.conf.options	2014-03-15 13:15:59.366728546 +0000
++++ named.conf.options.orig	2014-03-15 13:15:38.817896389 +0000
+@@ -13,6 +13,8 @@
+ 	// forwarders {
+ 	// 	0.0.0.0;
+ 	// };
++  zone-statistics yes;
++  statistics-file "/var/lib/bind/named.stats";
+ 	auth-nxdomain no;    # conform to RFC1035
+ 	listen-on-v6 { any; };
+ };
