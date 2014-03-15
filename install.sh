@@ -1,2 +1,2 @@
 #!/bin/bash
-ln -s /root/nagios-mk/mrpe.cfg /etc/check_mk/mrpe.cfg
+ln -s /root/nagios-cmk/mrpe.cfg /etc/check_mk/mrpe.cfg
